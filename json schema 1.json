@@ -1,0 +1,14 @@
+{
+    "person": {
+        "u_age": 27,
+        "u_name": [
+            "omurbek",
+            9000,
+            27
+        ],
+        "u_salary_1_5_year": 36000
+    },
+    "qa_salary_after_12_months": 26100.0,
+    "qa_salary_after_6_months": 18000,
+    "start_qa_salary": 9000
+}

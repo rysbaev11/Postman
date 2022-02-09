@@ -1,0 +1,6 @@
+{
+    "age": 27,
+    "daily_food": 0.78,
+    "daily_sleep": 162.5,
+    "name": "omurbek"
+}
