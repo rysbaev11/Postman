@@ -1,0 +1,222 @@
+{
+	"id": "e77374f3-ec6c-4687-8ce6-071e7cb684d0",
+	"name": "hw_3",
+	"timestamp": "2022-02-09T09:54:56.058Z",
+	"collection_id": "18334380-7b5bb1c2-dd5e-41cd-8bb0-fc89750d4d4e",
+	"folder_id": 0,
+	"environment_id": "bdc59230-0a04-4204-aab7-d4e59bd7df50",
+	"totalPass": 10,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5fee40f3-446b-45a8-a445-81301d948670",
+			"name": "login",
+			"url": "http://162.55.220.72:5005/login",
+			"time": 169,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				169
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "45d3295b-6978-4f53-b584-b1dd78a056e3",
+			"name": "user_info",
+			"url": "http://162.55.220.72:5005/user_info",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"start_qa_salary = heart.salary*2": true,
+				"Check u_salary_1_5_year": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"start_qa_salary = heart.salary*2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check u_salary_1_5_year": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				160
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"start_qa_salary = heart.salary*2": true,
+					"Check u_salary_1_5_year": true
+				}
+			]
+		},
+		{
+			"id": "fbdb253d-9d79-45b5-bacd-aececee1e4ea",
+			"name": "new_data",
+			"url": "http://162.55.220.72:5005/new_data",
+			"time": 169,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				169
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "d82254f5-686a-4f0b-bf1a-e67e499c003d",
+			"name": "test_pet_info",
+			"url": "http://162.55.220.72:5005/test_pet_info",
+			"time": 163,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"omurbek - schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"omurbek - schema is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				163
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"omurbek - schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "6635e400-8f45-46d2-b5ad-fb5836e59db1",
+			"name": "get_test_user",
+			"url": "http://162.55.220.72:5005/get_test_user",
+			"time": 171,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				171
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "dede504a-df8c-4a22-8df9-704be027d59d",
+			"name": "currency",
+			"url": "http://162.55.220.72:5005/currency",
+			"time": 535,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				535
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1367,
+	"collection": {
+		"requests": [
+			{
+				"id": "5fee40f3-446b-45a8-a445-81301d948670",
+				"method": "POST"
+			},
+			{
+				"id": "45d3295b-6978-4f53-b584-b1dd78a056e3",
+				"method": "POST"
+			},
+			{
+				"id": "fbdb253d-9d79-45b5-bacd-aececee1e4ea",
+				"method": "POST"
+			},
+			{
+				"id": "d82254f5-686a-4f0b-bf1a-e67e499c003d",
+				"method": "POST"
+			},
+			{
+				"id": "6635e400-8f45-46d2-b5ad-fb5836e59db1",
+				"method": "POST"
+			},
+			{
+				"id": "dede504a-df8c-4a22-8df9-704be027d59d",
+				"method": "POST"
+			}
+		]
+	}
+}
